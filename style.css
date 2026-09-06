@@ -7,3 +7,27 @@ h1{
 p{
     color: black;
 }
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotate;
+    animation-duration: 5s;
+}
+@keyframes slideLeft{
+    from{transform: translateX(400%);}
+}
+@keyframes slideRight{
+    to{transform: translateX(400%);}
+}
+@keyframes slideUp{
+    from{transform: translateX(400%);}
+}
+@keyframes slideDown{
+    to{transform: translateX(400%);} 
+}
+@keyframes rotate{
+    50%{transform: rotateZ(360deg)}
+}
