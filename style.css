@@ -11,12 +11,14 @@ p{
     width: 250px;
     height: 250px;
     background-color: red;
-    font-size: 13em;
+    font-size: 10em;
     text-align: center;
     animation-name: rotate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
 }
 @keyframes slideLeft{
     from{transform: translateX(400%);}
