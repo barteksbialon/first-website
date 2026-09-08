@@ -8,12 +8,12 @@ p{
     color: black;
 }
 #box{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: red;
-    font-size: 10em;
+    font-size: 9.5em;
     text-align: center;
-    animation-name: rotate;
+    animation-name: slideLeft;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
