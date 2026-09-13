@@ -17,20 +17,40 @@
     <form action="index.php" method="POST">
 
         <label for="fname">Name:</label>
-        <input type="text" id="fname" minlength="6" maxlength="20">
+        <input type="text" id="fname" minlength="6" maxlength="50"><br>
 
-        <label for="pass">E-mail:</label>
-        <input type="password" id="pass"><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email> placeholder="bbialon@gmail.com"<br>
 
-        <label for="phone">Phone # (Optional):</label><br>
+        <label for="phone">Phone # (Optional):</label>
         <input type="tel" id="phone" placeholder="888-123-4567" pattern=""<br>
 
-        <label for="bdate">birthdate:</label>
-        <input type="date" id="bdate"><br>
+        <div class="question-box">
+        <label for="user-question">What is your question?</label>
+        <textarea id="user-question" rows="6" cols="50" placeholder="Type your question here..."></textarea>
+        </div>
+
+        <style>
+        .question-box {
+        background-color: coral;
+        border: 2px solid coral;
+        padding: 1px;
+        border-radius: 8px;
+        max-width: 600px;
+        }
+        .question-box textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #999;
+        border-radius: 4px;
+        }
+        </style>
+
+       
+
         <input type="submit">
         <input type="reset"><br>
-
-
 
 
 
