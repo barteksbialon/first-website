@@ -35,3 +35,16 @@ p{
 @keyframes rotate{
     50%{transform: rotateZ(360deg)}
 }
+        }
+        #img1{
+            float: left;
+        }
+        #img2{
+            float: right;
+        }
+        #img3{
+            float: left;
+        }
+        #img4{
+            float: right;
+        }
