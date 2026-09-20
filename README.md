@@ -1,2 +1,2 @@
 # my-first-webpage
-Working on my very first website
+Learning on how to code by building my very first website.
